@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5b0e4d6e7d6d454b850249f3501dd3e, type: 3}
+  m_Name: Player1
+  m_EditorClassIdentifier: 
+  name: Player 1
+  score: {fileID: 11400000, guid: 0553c96dcd236204faa0dfa6b577912a, type: 2}
+  wealth: {fileID: 11400000, guid: a57da8c1bd9df9c4db78ad2a46bbfeec, type: 2}
+  speedHorizontal: 5.1
+  speedVertical: {fileID: 11400000, guid: 56d60239d740dec4c8688bbb7d892cac, type: 2}
+  multiplyVelocityUp: 2
+  multuplyVelocityDown: 0.5
+  mySpeedy: {fileID: 11400000, guid: 3e4db9dd3c4c78d44b8204d7d2a50c67, type: 2}
+  myAgility: {fileID: 11400000, guid: 14ce7b8516107de43bd11a818dfb8711, type: 2}
+  speedyShoot: {fileID: 11400000, guid: e8d62660497bb91488e4b03e65671abb, type: 2}
+  maxHP:
+    UseConstant: 1
+    ConstantValue: 100
+    Variable: {fileID: 0}
+  actualHP: {fileID: 11400000, guid: ab1529ffc358912419d93f07805215f9, type: 2}
+  startLives:
+    UseConstant: 1
+    ConstantValue: 3
+    Variable: {fileID: 0}
+  lives: {fileID: 11400000, guid: cd4782662c487bf4d81df2ef95c563fe, type: 2}
+  playerDefaultSkin: {fileID: 11400000, guid: c5bf30c18e56bb04d91c36066b438ce3, type: 2}
+  playerSkin: {fileID: 11400000, guid: c5bf30c18e56bb04d91c36066b438ce3, type: 2}
+  ListEnemysHit: {fileID: 11400000, guid: b334f3a98800aa442aa3aed31c3b51b0, type: 2}
+  ListCollectibles: {fileID: 11400000, guid: f5975eb29a1f9864585f7917b436c807, type: 2}
+  listProducts: {fileID: 11400000, guid: 8c95b40dc4511f94aaebc3170d5d073e, type: 2}

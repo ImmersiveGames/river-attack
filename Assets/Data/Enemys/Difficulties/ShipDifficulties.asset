@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf82295d746600e4380d6a69ced32f1d, type: 3}
+  m_Name: ShipDifficulties
+  m_EditorClassIdentifier: 
+  difficulties:
+  - name: Easy
+    scoreMod:
+      UseConstant: 0
+      ConstantValue: 0
+      Variable: {fileID: 11400000, guid: da658a2a6e3d8c645a2e7ee1b92f5754, type: 2}
+    scoreToChange:
+      UseConstant: 0
+      ConstantValue: 0
+      Variable: {fileID: 11400000, guid: de7e62e68f8524640a1d904d755416d8, type: 2}
+    multplySpeedy: 1
+    multplyPlayerDistance: 1
+  - name: Normal
+    scoreMod:
+      UseConstant: 0
+      ConstantValue: 0
+      Variable: {fileID: 11400000, guid: 4b5dc982268c1c7498c915809387b63c, type: 2}
+    scoreToChange:
+      UseConstant: 0
+      ConstantValue: 0
+      Variable: {fileID: 11400000, guid: 8f0c42cae0ecf304b900f5d6f393d9c9, type: 2}
+    multplySpeedy: 1.5
+    multplyPlayerDistance: 0.6
+  - name: Hard
+    scoreMod:
+      UseConstant: 0
+      ConstantValue: 0
+      Variable: {fileID: 11400000, guid: b802b8e676cf4c84f98e576157597552, type: 2}
+    scoreToChange:
+      UseConstant: 0
+      ConstantValue: 0
+      Variable: {fileID: 11400000, guid: 968fb7495d574b743b6109741880824a, type: 2}
+    multplySpeedy: 2
+    multplyPlayerDistance: 0.3

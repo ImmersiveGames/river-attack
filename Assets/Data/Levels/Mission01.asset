@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67223ef8a2834694f8df3c93e93ab983, type: 3}
+  m_Name: Mission01
+  m_EditorClassIdentifier: 
+  levelName: Mission 01
+  translateName: {fileID: 0}
+  levelDedescription: Mission tutorial
+  translateDedescription: {fileID: 0}
+  levelIcon: {fileID: 0}
+  beatGame: 0
+  levelOffset: -37.8
+  pathStart: {fileID: 1339132488644018, guid: 718139ffc2722bd4081603a626c43f19, type: 2}
+  pathEnd: {fileID: 1339132488644018, guid: 718139ffc2722bd4081603a626c43f19, type: 2}
+  levelSet:
+  - levelPaths: {fileID: 1694027712697140, guid: 59765a9288fafc04599df60cafe2533d,
+      type: 2}
+    enemysSets: {fileID: 1821945061177708, guid: 09488408916fd0d4b9d27acf37e8d79b,
+      type: 2}
+  previousLevel: []

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04ab668df2d23734f91c3d5e8e17becc, type: 3}
+  m_Name: LockheedXP58
+  m_EditorClassIdentifier: 
+  name: Lockheed XP58
+  translateName: {fileID: 0}
+  spriteItem: {fileID: 21300008, guid: 314563cc5305a784cb8ad5bdf9efea30, type: 3}
+  desciptionItem: Teste nova Skin
+  translateDesc: {fileID: 0}
+  priceItem: 20
+  isConsumable: 0
+  animatorController: {fileID: 9100000, guid: 5f090385af111b44d8dfa19634289c56, type: 2}
+  skinProduct: {fileID: 1080594855727216, guid: 65ce7eabc731abb48986b86898c19e7a,
+    type: 2}

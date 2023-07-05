@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1656895667682070}
+  m_IsPrefabParent: 1
+--- !u!1 &1656895667682070
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4739371976698186}
+  - component: {fileID: 114358445451097138}
+  - component: {fileID: 114099793467618038}
+  - component: {fileID: 114285539653452446}
+  - component: {fileID: 114990565223137288}
+  - component: {fileID: 114736584898843408}
+  m_Layer: 0
+  m_Name: GamePlayManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4739371976698186
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1656895667682070}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114099793467618038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1656895667682070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4c3a91de470a9e49b8c4147821d810b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiController: 0
+  isPausedPlayGame: 0
+  levelComplete: 0
+  listPlayersMaster: []
+--- !u!114 &114285539653452446
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1656895667682070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17ff3a7dd05601143b61c1950e0ebb45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panelGameOver: {fileID: 0}
+--- !u!114 &114358445451097138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1656895667682070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1e64b09bb6266946aa64062945859c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panelMessage: {fileID: 0}
+  panelResults: {fileID: 0}
+  EasyTweenStart:
+  - {fileID: 0}
+  - {fileID: 0}
+  msnCongratulation: {fileID: 11400000, guid: 4a531c847ec572f4b951cdbc4943f989, type: 2}
+  msnGameOver: {fileID: 11400000, guid: dc83f35eb8fed5b48950986f4896de8c, type: 2}
+  finishLevels: {fileID: 11400000, guid: 23ae94698ab11394c87843c0f40c9dc2, type: 2}
+--- !u!114 &114736584898843408
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1656895667682070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78104aebba3e044fae50147d58db75e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114990565223137288
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1656895667682070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef98eef6d62b11245acd290dc5625358, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panelContinue: {fileID: 0}
+  continueMessage: {fileID: 0}
+  idRewardVideo: rewardedVideo
+  livesToEarn: 3
+  continues: {fileID: 11400000, guid: 3a3ec09e344ac584699e47d7659d782f, type: 2}
+  menssagesLocalize:
+  - {fileID: 11400000, guid: cb681de442a686b48b9495250cce8708, type: 2}
+  - {fileID: 11400000, guid: 133a4cc7f75a4244a8fb1df56c29c849, type: 2}
