@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77f23e491fb6c254086affa025677638, type: 3}
+  m_Name: Congratulations
+  m_EditorClassIdentifier: 
+  listEntry:
+  - name: en-US
+    language: {fileID: 11400000, guid: 9a8cb9457b5751a4e9eb26ddb41534a8, type: 2}
+    entrys:
+    - Congratulations!
+  - name: pt-BR
+    language: {fileID: 11400000, guid: e6ba1ae50bd85c543b0a53bd6927239e, type: 2}
+    entrys:
+    - "Parab\xE9ns!"
