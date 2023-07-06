@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_number": "41212679208",
+    "firebase_url": "https://riverattack-d82e0.firebaseio.com",
+    "project_id": "riverattack-d82e0",
+    "storage_bucket": "riverattack-d82e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41212679208:android:15f552a1b6f70240",
+        "android_client_info": {
+          "package_name": "com.ImmersiveGames.RiverAttack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41212679208-3utn1rukcv8o4qrruqo25sljgog51b0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe8gSbOFL85l9-ZS46PG3qBkC-SlY4Upo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-4771631071127457~7757053713"
+    }
+  ],
+  "configuration_version": "1"
+}
