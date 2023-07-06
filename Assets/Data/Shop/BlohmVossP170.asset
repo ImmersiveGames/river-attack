@@ -8,16 +8,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04ab668df2d23734f91c3d5e8e17becc, type: 3}
+  m_Script: {fileID: 11500000, guid: f7a389aee326a1b4a87a913e2863c898, type: 3}
   m_Name: BlohmVossP170
   m_EditorClassIdentifier: 
-  name: Blohm and Voss P170
+  name: Blohm Voss P170
   translateName: {fileID: 0}
-  spriteItem: {fileID: 21300014, guid: 314563cc5305a784cb8ad5bdf9efea30, type: 3}
-  desciptionItem: Teste nova Skin
+  spriteItem: {fileID: 21300012, guid: 3de49b0208cf67e4fbc9d0c1d0a9e1d1, type: 3}
+  desciptionItem: 
   translateDesc: {fileID: 0}
-  priceItem: 5
+  refPriceFirebase: shop_skin_Blohm_Voss_P170
+  priceItem: 50
   isConsumable: 0
-  animatorController: {fileID: 9100000, guid: 2ee30f90431d778448c45b399f34a79d, type: 2}
-  skinProduct: {fileID: 1292679541336134, guid: 1fcd8095e393ac242bafe4571662c60b,
+  skinProduct: {fileID: 1651837942339224, guid: 1fcd8095e393ac242bafe4571662c60b,
     type: 2}
+  hubSprite: {fileID: 21300012, guid: d7dfe0cabe501af43bd6d626a930083b, type: 3}

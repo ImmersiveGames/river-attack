@@ -8,21 +8,37 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67223ef8a2834694f8df3c93e93ab983, type: 3}
+  m_Script: {fileID: 11500000, guid: 7db0b8faae24d574d98199375757ee8c, type: 3}
   m_Name: Mission04
   m_EditorClassIdentifier: 
-  levelName: Mission 01
+  levelName: Mission 04
   translateName: {fileID: 0}
-  levelDedescription: Mission tutorial
+  levelDedescription: 
   translateDedescription: {fileID: 0}
-  levelIcon: {fileID: 0}
+  levelIcon: {fileID: 21300000, guid: a3cdeafeb745e7e44aa2c208a0c68835, type: 3}
+  levelIconPos: {x: 0, y: 0, z: 0}
+  startLevelBGM: 4
   beatGame: 0
-  levelOffset: -37.8
+  levelOffset: {x: 0, y: 0, z: 0}
   pathStart: {fileID: 1339132488644018, guid: 718139ffc2722bd4081603a626c43f19, type: 2}
   pathEnd: {fileID: 1339132488644018, guid: 718139ffc2722bd4081603a626c43f19, type: 2}
   levelSet:
-  - levelPaths: {fileID: 1694027712697140, guid: 59765a9288fafc04599df60cafe2533d,
+  - levelPaths: {fileID: 1109544980776992, guid: fc3fbdbee4903b24aa0eafa181bce373,
       type: 2}
-    enemysSets: {fileID: 0}
+    enemysSets: {fileID: 1436553035179604, guid: 11d8d243d5c420b4ea7849e31830e948,
+      type: 2}
+  - levelPaths: {fileID: 1565366561866126, guid: 10d03201e65584448b6455a98d2d01a5,
+      type: 2}
+    enemysSets: {fileID: 1426345896406582, guid: 260b1a723fc9f8a41b8709dd39818909,
+      type: 2}
+  - levelPaths: {fileID: 1139685433090348, guid: 2db8a5b0288b5ea458b8f29dd77b0f75,
+      type: 2}
+    enemysSets: {fileID: 1764355886910448, guid: e5b040eb8de516b47b382edc28bbce32,
+      type: 2}
+  - levelPaths: {fileID: 1964792950441080, guid: d59e649fbf47dbc4a8ff73403758ce67,
+      type: 2}
+    enemysSets: {fileID: 1395666369495464, guid: 35c5f5bba86fcc94e823e13dcb44fbab,
+      type: 2}
   previousLevel:
-  - {fileID: 11400000, guid: 037a260d343e3c247a27e44f3717ab82, type: 2}
+  - {fileID: 11400000, guid: 163eb3571d906d349bcec0ecaa2b9e09, type: 2}
+  maxLevels: 5

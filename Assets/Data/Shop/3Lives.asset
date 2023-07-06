@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6a3f91820b91eb4496ff7def838ba95, type: 3}
+  m_Name: 3Lives
+  m_EditorClassIdentifier: 
+  name: Lives
+  translateName: {fileID: 11400000, guid: 9e2ee883347168543a7b3eea1aad7d7a, type: 2}
+  spriteItem: {fileID: 21300038, guid: 3de49b0208cf67e4fbc9d0c1d0a9e1d1, type: 3}
+  desciptionItem: 3x
+  translateDesc: {fileID: 11400000, guid: 9d30b96f58617ef4c8b3244fab95853f, type: 2}
+  refPriceFirebase: shop_3life_price
+  priceItem: 120
+  isConsumable: 1
+  quntity: 3

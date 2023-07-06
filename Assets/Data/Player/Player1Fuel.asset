@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Name: Player1Fuel
   m_EditorClassIdentifier: 
   DeveloperDescription: Valor atual de HP/FUEL do jogador
-  Value: 100
+  Value: 94

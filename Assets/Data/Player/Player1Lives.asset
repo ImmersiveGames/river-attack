@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Name: Player1Lives
   m_EditorClassIdentifier: 
   DeveloperDescription: Vidas atuais do jogador
-  Value: 0
+  Value: 12

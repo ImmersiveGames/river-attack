@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1c3056c68e340449fa7f6fcf0c34d8, type: 3}
+  m_Name: 5Bomb
+  m_EditorClassIdentifier: 
+  name: B-Bomb
+  translateName: {fileID: 11400000, guid: d7e95440a659c0041916e4957a1a0c09, type: 2}
+  spriteItem: {fileID: 21300034, guid: 3de49b0208cf67e4fbc9d0c1d0a9e1d1, type: 3}
+  desciptionItem: 5x
+  translateDesc: {fileID: 11400000, guid: 73f512615c8d23d409c6a8c89fbc3306, type: 2}
+  refPriceFirebase: shop_bomb5_price
+  priceItem: 50
+  isConsumable: 1
+  quntity: 5

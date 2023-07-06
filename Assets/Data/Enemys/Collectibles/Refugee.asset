@@ -8,28 +8,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8b7aef5720f31643a98c93d47a41436, type: 3}
+  m_Script: {fileID: 11500000, guid: 4323abccdcc85084da2117ad0a82e2da, type: 3}
   m_Name: Refugee
   m_EditorClassIdentifier: 
-  name: Refugee
+  name: Refugiee
   enemyScore:
     UseConstant: 1
-    ConstantValue: 20
+    ConstantValue: 0
     Variable: {fileID: 0}
-  spriteIcon: {fileID: 21300004, guid: 9632dc9ab8d7b6548b990d93e574aa4d, type: 3}
+  spriteIcon: {fileID: 21300024, guid: 00fe56aef94d83649b921f117186f107, type: 3}
   enemyAudioMixerGroup: {fileID: 243456370578959728, guid: 9aea00f94f65f0342a3b2258886c502d,
     type: 2}
   enemysDifficulty: {fileID: 0}
   canFlip: 0
-  endLevel: 0
-  canRespawn: 1
+  canRespawn: 0
   canDestruct: 1
-  ignoreWall: 0
-  ignoreEnemys: 0
   isCheckInPoint: 0
   maxCollectible:
     UseConstant: 1
     ConstantValue: 0
     Variable: {fileID: 0}
-  collectValuable: 2
+  collectValuable: 1
+  ammontColletables: 1
   powerUp: {fileID: 0}

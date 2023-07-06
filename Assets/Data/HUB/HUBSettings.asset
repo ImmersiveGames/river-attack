@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 444e8ad33b935f246a5ede3fb4b99d5a, type: 3}
   m_Name: HUBSettings
   m_EditorClassIdentifier: 
-  hubFinishLevels: {fileID: 11400000, guid: 08ae2d5f53e5952419836915c0bc9608, type: 2}
-  realFinishLevels: {fileID: 11400000, guid: 23ae94698ab11394c87843c0f40c9dc2, type: 2}
-  timeToMoveCam: 2
+  levelHubComplete: []
+  levelToUnlock:
+  - {fileID: 11400000, guid: aa920406eb80d5841927f37f603e130a, type: 2}

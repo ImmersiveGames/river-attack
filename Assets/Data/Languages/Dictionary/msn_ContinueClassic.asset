@@ -12,13 +12,11 @@ MonoBehaviour:
   m_Name: msn_ContinueClassic
   m_EditorClassIdentifier: 
   listEntry:
-  - name: en-Us
-    language: {fileID: 11400000, guid: 9a8cb9457b5751a4e9eb26ddb41534a8, type: 2}
+  - language: {fileID: 11400000, guid: 9a8cb9457b5751a4e9eb26ddb41534a8, type: 2}
     entrys:
-    - Do you want to continue your raid?  Watch the movie to earn an extra life! \n
-      {0} continues remains
-  - name: pt-BR
-    language: {fileID: 11400000, guid: e6ba1ae50bd85c543b0a53bd6927239e, type: 2}
+    - "\rDo you want to continue your mission? watch the video to earn extra lives."
+    - "\rDo you want to continue your mission? watch the video to earn {0} extra lives."
+  - language: {fileID: 11400000, guid: e6ba1ae50bd85c543b0a53bd6927239e, type: 2}
     entrys:
-    - Quer continuar seu ataque? Assista um anuncio para ganhar uma vida extra! Restam
-      {0} continues
+    - Quer continuar seu ataque? Assista um anuncio para ganhar {0} vida extra!
+    - Quer continuar seu ataque? Assista um anuncio para ganhar {0} vidas extras!

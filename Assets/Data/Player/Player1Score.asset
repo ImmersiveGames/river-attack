@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Name: Player1Score
   m_EditorClassIdentifier: 
   DeveloperDescription: "Pontua\xE7\xE3o do player"
-  Value: 350
+  Value: 0

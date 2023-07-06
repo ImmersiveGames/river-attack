@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db0b8faae24d574d98199375757ee8c, type: 3}
+  m_Name: Mission01
+  m_EditorClassIdentifier: 
+  levelName: Mission 01
+  translateName: {fileID: 0}
+  levelDedescription: 
+  translateDedescription: {fileID: 0}
+  levelIcon: {fileID: 21300000, guid: a3cdeafeb745e7e44aa2c208a0c68835, type: 3}
+  levelIconPos: {x: 0.61, y: -19.05, z: 0}
+  startLevelBGM: 4
+  beatGame: 0
+  levelOffset: {x: 0, y: 0, z: 0}
+  pathStart: {fileID: 1339132488644018, guid: 718139ffc2722bd4081603a626c43f19, type: 2}
+  pathEnd: {fileID: 1339132488644018, guid: 718139ffc2722bd4081603a626c43f19, type: 2}
+  levelSet:
+  - levelPaths: {fileID: 1098899354938464, guid: ea661a18f5f7b4ad8b21e008955cfe1a,
+      type: 2}
+    enemysSets: {fileID: 1753646910070318, guid: dbd148f1b6bceeb4585a728f1ea260e2,
+      type: 2}
+  - levelPaths: {fileID: 1383632902568538, guid: 2ad6061eb73bf4dc4a7cb82f6602a230,
+      type: 2}
+    enemysSets: {fileID: 1876523743882564, guid: d33a2f19d5f11d84eab56d93aa130332,
+      type: 2}
+  - levelPaths: {fileID: 1058777658038798, guid: 733a7db89988f4a468e8f9418f7fdb15,
+      type: 2}
+    enemysSets: {fileID: 1281247228299778, guid: 5aadde66a9e7aaf459fe35e0565a1fbf,
+      type: 2}
+  previousLevel: []
+  maxLevels: 5

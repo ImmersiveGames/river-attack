@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4323abccdcc85084da2117ad0a82e2da, type: 3}
+  m_Name: PowerUpRapidFire
+  m_EditorClassIdentifier: 
+  name: RapidFire
+  enemyScore:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  spriteIcon: {fileID: 21300012, guid: 13817433aee80ba47a97274ccaf3db5d, type: 3}
+  enemyAudioMixerGroup: {fileID: 243456370578959728, guid: 9aea00f94f65f0342a3b2258886c502d,
+    type: 2}
+  enemysDifficulty: {fileID: 0}
+  canFlip: 0
+  canRespawn: 0
+  canDestruct: 0
+  isCheckInPoint: 0
+  maxCollectible:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  collectValuable: 0
+  ammontColletables: 1
+  powerUp: {fileID: 11400000, guid: 3a82d5010cc9d2f44bc6f39803b7051c, type: 2}

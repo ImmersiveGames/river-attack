@@ -8,22 +8,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d5ef236f2521fd4bbc55d97c4f4ee66, type: 3}
+  m_Script: {fileID: 11500000, guid: 03e627621303cd947bb894974c219272, type: 3}
   m_Name: BridgeInner
   m_EditorClassIdentifier: 
-  name: Brigde Final
+  name: Bridge
   enemyScore:
     UseConstant: 1
-    ConstantValue: 1000
+    ConstantValue: 10
     Variable: {fileID: 0}
-  spriteIcon: {fileID: 21300010, guid: 9632dc9ab8d7b6548b990d93e574aa4d, type: 3}
+  spriteIcon: {fileID: 21300044, guid: 00fe56aef94d83649b921f117186f107, type: 3}
   enemyAudioMixerGroup: {fileID: 243585951335759114, guid: 9aea00f94f65f0342a3b2258886c502d,
     type: 2}
-  enemysDifficulty: {fileID: 11400000, guid: 9d3bf26c63e0bf04da2d7530cafab1bb, type: 2}
+  enemysDifficulty: {fileID: 11400000, guid: c8cfc2e8ffa802d4e9e7f2344b695fbc, type: 2}
   canFlip: 0
-  endLevel: 0
   canRespawn: 0
   canDestruct: 1
-  ignoreWall: 1
-  ignoreEnemys: 1
   isCheckInPoint: 1

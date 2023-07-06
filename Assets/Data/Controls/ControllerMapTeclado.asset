@@ -16,7 +16,8 @@ MonoBehaviour:
     deadZone: 0.3
   axiesVertical:
   - name: Vertical
-    deadZone: 0.7
+    deadZone: 0.8
   actions:
-  - Jump
+  - Fire1
+  - Bomb
   actionsTriggers: []
